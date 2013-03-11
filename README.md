@@ -15,7 +15,7 @@ var zdom = require('zdom');
 var tab = new zdom.tab();
 
 tab
-  .set('library', 'jquery') // the default is 'zepto', anything should be a [jsdom scripts arg](https://github.com/tmpvar/jsdom#how-it-works)
+  .set('library', 'jquery') // the default is 'zepto', anything should be a jsdom scripts arg
   // TODO .set('follow redirects', true)
   // TODO .set('user agent', 'chrome')
   .navigate('http://google.com') // returns a q promise
