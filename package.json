@@ -1,7 +1,10 @@
 {
-  "name": "ZeptoDOM",
+  "name": "zeptodom",
   "version": "0.0.1",
   "private": false,
+  "devDependencies": {
+    "async": "*"
+  },
   "dependencies": {
     "jsdom": "0.5.2",
     "q": "0.9.2"

@@ -1,3 +1,3 @@
 module.exports = {
-  tab: require('./tab')
+  tab: require('./lib/tab')
 };
