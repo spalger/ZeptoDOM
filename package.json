@@ -1,9 +1,13 @@
 {
   "name": "zeptodom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
+  "scripts": {
+    "start": "node app",
+    "test": "node ./node_modules/mocha/bin/mocha test --ignore-leaks"
+  },
   "devDependencies": {
-    "async": "*"
+    "mocha": "1.8.1"
   },
   "dependencies": {
     "jsdom": "0.5.2",
